@@ -2,6 +2,10 @@
 
 It is a [Pig Dice](https://en.wikipedia.org/wiki/Pig_(dice_game)) game application.
 
+This is a two player game of Pig dice. Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold". The first player to score 100 or more points wins.
+
+
+
 ## Author
 
 [Jason Muchiri](https://github.com/jasonmuchiri)
@@ -11,6 +15,8 @@ It is a [Pig Dice](https://en.wikipedia.org/wiki/Pig_(dice_game)) game applicati
  - HTML
  - css
  - js
+ - jquery-3.3.1.js
+ - bootstrap version 3.3.7.
 
 ## Project setup and installation instructions
 
@@ -22,7 +28,7 @@ To start using this project use the following commands:
 
 ## My Contacts
 
-contact me here:
+email me here:
  jasonmkinyua@gmail.com
 
 ## License information
