@@ -4,7 +4,14 @@ It is a [Pig Dice](https://en.wikipedia.org/wiki/Pig_(dice_game)) game applicati
 
 This is a two player game of Pig dice. Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold". The first player to score 100 or more points wins.
 
+## BDD
 
+|Behavior|Input Example|Output Example|
+|--------|-------------|--------------|
+|If the dice rolls 1 the turn score becomes 0|Dice:5, Turn Score:5|Dice:1, Turn Score:0|
+|If the dice rolls 1 it becomes the next player's turn|Dice:5, Turn Score:5, Player1|Dice:1, Turn Score:0, "It's the next player's turn!"|
+|If the player clicks "Hold" the turn score is transferred to the total score, and the turn score turns to 0|Turn Score:10 Total Score:0|Turn Score:0 Total Score:0|
+|If the player clicks "Hold" it becomes the next player's turn|Dice:5, Turn Score:5, Player1|"It's Player2's turn"|
 
 ## Author
 
