@@ -24,10 +24,10 @@ var playerRoll = function() {
   } else {
     pigGame.turnScore +=roll;
     if (pigGame.playerUp === 1) {
-      if (pigGame.turnScore + pigGame.player1Score >= 21) {
+      if (pigGame.turnScore + pigGame.player1Score >= 100) {
         alertWinner(1);
       }
-    } else if (pigGame.turnScore + pigGame.player2Score >= 21) {
+    } else if (pigGame.turnScore + pigGame.player2Score >= 100) {
       alertWinner(2);
   }
   }
@@ -85,7 +85,7 @@ function alertWinner(playerNumber) {
 
 $(document).ready(function() {
 
-  $("form#pigForm").submit(function(event){
+  $("form#gamePig").submit(function(event){
     var playerName1 = $("input#playerName1").val();
     var playerName2 = $("input#playerName2").val();
       $("span#playerName1").text(playerName1);
