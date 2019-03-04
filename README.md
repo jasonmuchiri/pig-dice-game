@@ -41,10 +41,10 @@ To start using this project use the following commands:
 - `cd pig-dice-game`
 - `atom .`
 
-### Project's link to gh-pages
+## Project's link to gh-pages
 
-    https://jasonmuchiri.github.io/pig-dice-game/
-    
+https://jasonmuchiri.github.io/pig-dice-game/
+
 ## My Contacts
 
 email me here:
