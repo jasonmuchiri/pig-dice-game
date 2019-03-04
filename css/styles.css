@@ -1,10 +1,3 @@
 body {
-      background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjy1ZPHmujgAhUlD2MBHWBmAbcQjRx6BAgBEAU&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_74892369_abstract-blurred-background-blurry-painted-landscape-concept-with-cloud-in-sky-and-golden-green-fiel.html&psig=AOvVaw1XjjHkFxjJDuHMg9zYpoC7&ust=1551779174830842);
-    background-size: cover;
-    background-position: center;
-    font-family: Lato;
-    font-weight: 300;
-    position: relative;
-    height: 100vh;
-    color: #555;
+    background-image: url("ln.jpg");
 }
