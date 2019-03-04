@@ -31,9 +31,9 @@
      <div class="row">
        <div class="col-md-6">
      <div class="pigDisplay">
-         <h1><span id="player1"></span>'s Total Score: <span class="pigStatusDisplay  player1Score">0</span></h1>
+       <h1><span id="player1"></span>'s Total Score: <span class="pigStatusDisplay player1Score">0</span></h1>
          <div id="player1Button">
-         <h2>Player <span class="playerStatus" class="pigStatusDisplay"></span>'s Turn</h2>
+         <h2>Player<span class="playerStatus" class="pigStatusDisplay">'s Turn</span></h2>
          <h2>Current turn score: <span id="turnScore" class="pigStatusDisplay turnScore"></span></h2>
          <h2>Roll Result: <span id="rollResult" class="pigStatusDisplay rollResult"></span></h2>
          <button type="button" class="btn btn-warning btn-lg rollPig">Roll My Dice</button>
@@ -42,13 +42,15 @@
        </div>
        </div>
        <div class="col-md-6">
+         <div class="pigDisplay">
          <h1><span id="player2"></span>'s Total Score: <span class="pigStatusDisplay player2Score">0</span></h1>
          <div id="player2Button">
-         <h2>Player <span class="playerStatus"></span>'s Turn</h2>
+         <h2>Player<span class="playerStatus" class="pigStatusDisplay">'s Turn</span></h2>
          <h2>Current turn score: <span id="turnScore" class="pigStatusDisplay turnScore"></span></h2>
          <h2>Roll Result: <span id="rollResult" class="pigStatusDisplay rollResult"></span></h2>
          <button type="button" class="btn btn-warning btn-lg rollPig">Roll My Dice</button>
          <button type="button" class="btn btn-primary btn-lg holdPig">Hold</button>
+       </div>
        </div>
      </div>
    </div>

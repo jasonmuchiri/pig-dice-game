@@ -1,5 +1,6 @@
 body {
     background-image: url("ln.jpg");
+    border-bottom:20px solid #82E0AA;
 }
 .jumbotron {
   text-align: center;
@@ -20,8 +21,9 @@ body {
   font-size: 25px;
 }
 h1 {
-  color:#FF0000
+  color:#FF0000;
 }
 h2 {
   color:#1431AB;
+  font-family: fantasy;
 }
