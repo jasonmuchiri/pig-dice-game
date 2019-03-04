@@ -27,3 +27,7 @@ h2 {
   color:#1431AB;
   font-family: fantasy;
 }
+img {
+  padding-bottom: 20px;
+  padding-top: 0.025px;
+}
