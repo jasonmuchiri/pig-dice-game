@@ -13,40 +13,43 @@
        <p>Let's play it!!</p>
      <form id="gamePig" class="form-type" action="index.html" method="post">
        <div class="players">
-         <label class="players">Enter Player1</label>
-         <input id="playerName1" type="text">
+         <label class="players">Enter Name of Player 1</label>
+         <input id="player1" type="text">
        </div>
        <div class="playersName">
-         <label class="players">Enter Player2</label>
-         <input id="playerName2" type="text">
+         <label class="players">Enter Name of Player 2</label>
+         <input id="player2" type="text">
        </div>
-       <button class="players btn-success" name="button">Submit</button>
+
+       <button class="players btn-success" name="button">Play</button>
      </form>
    </div>
      <br>
-     <div class="gameDisplay">
-       <div class="col-md-5" id="gameDisplayPlayer1">
-         <h1><span id="playerName1"></span>'s Score: <span class="gameStatusDisplay  player1Score">0</span></h1>
+     <div class="row">
+       <div class="col-md-6" id="pigDisplayPlayer1">
+     <div class="pigDisplay">
+         <h1><span id="player1"></span>'s Total Score: <span class="pigStatusDisplay  player1Score">0</span></h1>
          <div id="player1Button">
-         <h2>Player <span class="playerStatus" class="gameStatusDisplay"></span>'s Turn</h2>
-         <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2>
-         <h2>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></h2>
-         <button type="button" class="btn btn-warning btn-lg rollPig">(Re)Roll for More Points!</button>
-         <button type="button" class="btn btn-primary btn-lg holdPig">Stop rolling and keep points...</button>
+         <h2>Player <span class="playerStatus" class="pigStatusDisplay"></span>'s Turn</h2>
+         <h2>Current turn score: <span id="turnScore" class="pigStatusDisplay turnScore"></span></h2>
+         <h2>Roll Result: <span id="rollResult" class="pigStatusDisplay rollResult"></span></h2>
+         <button type="button" class="btn btn-warning btn-lg rollPig">Roll My Dice</button>
+         <button type="button" class="btn btn-primary btn-lg holdPig">Hold</button>
          </div>
        </div>
-       <div class="col-md-5 col-md-offset-2" id="gameDisplayPlayer2">
-         <h1><span id="playerName2"></span>'s Score: <span class="gameStatusDisplay player2Score">0</span></h1>
+       </div>
+       <div class="col-md-6 " id="pigDisplayPlayer2">
+         <h1><span id="player2"></span>'s Total Score: <span class="pigStatusDisplay player2Score">0</span></h1>
          <div id="player2Button">
          <h2>Player <span class="playerStatus"></span>'s Turn</h2>
-         <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2>
-         <h2>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></h2>
-         <button type="button" class="btn btn-warning btn-lg rollPig">(Re)Roll for More Points!</button>
-         <button type="button" class="btn btn-primary btn-lg holdPig">Stop rolling and keep points...</button>
+         <h2>Current turn score: <span id="turnScore" class="pigStatusDisplay turnScore"></span></h2>
+         <h2>Roll Result: <span id="rollResult" class="pigStatusDisplay rollResult"></span></h2>
+         <button type="button" class="btn btn-warning btn-lg rollPig">Roll My Dice</button>
+         <button type="button" class="btn btn-primary btn-lg holdPig">Hold</button>
        </div>
      </div>
-     </div>
    </div>
+     </div>
    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 
    <script src="js/scripts.js"></script>

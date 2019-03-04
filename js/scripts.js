@@ -73,29 +73,29 @@ function resetGame() {
 
 
 function alertEndTurn(){
-  alert("Sorry - you rolled a 1.  Your score remains the same and your turn is over.");
+  alert("SORRY You rolled a 1.Your score remains the same BUT your turn is over.");
   $(".playerStatus").text(pigGame.playerUp);
 }
 
 function alertWinner(playerNumber) {
-  alert("Player " + playerNumber + " is the BIG winner!!");
+  alert("Player " + playerNumber + " WINS the game.");
   resetGame();
-  $(".gameStatusDisplay").text(0);
+  $(".pigStatusDisplay").text(0);
 }
 
 $(document).ready(function() {
 
   $("form#gamePig").submit(function(event){
-    var playerName1 = $("input#playerName1").val();
-    var playerName2 = $("input#playerName2").val();
-      $("span#playerName1").text(playerName1);
-      $("span#playerName2").text(playerName2);
+    var player1 = $("input#player1").val();
+    var player2 = $("input#player2").val();
+      $("span#player1").text(player1);
+      $("span#player2").text(player2);
       $("#player2Button").hide();
       $("#player1Button").show();
       $(".playerStatus").text(pigGame.playerUp);
       event.preventDefault();
 
-    var nameHolder = new Names(playerName1, playerName2);
+    var nameHolder = new Names(player1, player2);
   })
 
 
