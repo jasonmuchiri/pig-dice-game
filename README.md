@@ -4,6 +4,14 @@ It is a [Pig Dice](https://en.wikipedia.org/wiki/Pig_(dice_game)) game applicati
 
 This is a two player game of Pig dice. Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold". The first player to score 100 or more points wins.
 
+### Game Rules
+
+- The game has 2 players, playing in rounds
+- In each turn, a player rolls a dice as many times as he wishes. Each result get added to his ROUND score
+- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
+- The player can choose to 'Hold', which means that his ROUND score gets added to his previous score. After that, it's the next player's turn
+- The first player to reach 100 points on GLOBAL score wins the game
+
 ## BDD
 
 |Behavior|Input Example|Output Example|
