@@ -10,7 +10,9 @@
    <div class="container">
      <div class="jumbotron">
        <h1>The Pig Dice Game!</h1>
-       <p>Let's play it!!</p>
+       <p id="tag">Let's play it!!</p>
+     </div>
+     <div class="jumbotron">
      <form id="gamePig" class="form-type" action="index.html" method="post">
        <div class="players">
          <label class="players">Enter Name of Player 1</label>
@@ -20,13 +22,14 @@
          <label class="players">Enter Name of Player 2</label>
          <input id="player2" type="text">
        </div>
-
-       <button class="players btn-success" name="button">Play</button>
+     </div>
+       <div class="play">
+         <button class="players btn-success" name="button">Now Let's Play</button>
+     </div>
      </form>
-   </div>
      <br>
      <div class="row">
-       <div class="col-md-6" id="pigDisplayPlayer1">
+       <div class="col-md-6">
      <div class="pigDisplay">
          <h1><span id="player1"></span>'s Total Score: <span class="pigStatusDisplay  player1Score">0</span></h1>
          <div id="player1Button">
@@ -38,7 +41,7 @@
          </div>
        </div>
        </div>
-       <div class="col-md-6 " id="pigDisplayPlayer2">
+       <div class="col-md-6">
          <h1><span id="player2"></span>'s Total Score: <span class="pigStatusDisplay player2Score">0</span></h1>
          <div id="player2Button">
          <h2>Player <span class="playerStatus"></span>'s Turn</h2>
